@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da viewport */
+}
+
+main {
+    flex-grow: 1; /* Faz o main ocupar o espaço disponível entre o header e o footer */
+}
+
+/* Adicione outros estilos customizados aqui */
+
+  :root {
+      --amarelo-festa: #FFB127;
+      --verde-festa: #00B020;
+      --azul-festa: #0042E5;
+      --vermelho-festa: #E10F17;
+  }
+
+  .header-festa {
+      background-color: var(--amarelo-festa); /* Usando a variável */
+      color: var(--azul-festa); /* Cor do texto */
+  }
+
+   /* Footer */
+  .footer-festa {
+      background-color: var(--amarelo-festa);
+      color: #fff; /* Texto branco */
+  }
+
+   /* Botão */
+  .btn-vermelho {
+      background-color: var(--vermelho-festa);
+      border-color: var(--vermelho-festa);
+      color: #fff;
+  }
+  .btn-vermelho:hover{
+      background-color: #fff;
+      border-color: var(--vermelho-festa);
+      color: var(--vermelho-festa);
+  }
+
+  /* Link */
+  .link-azul {
+      color: var(--azul-festa);
+  }
+  .link-azul:hover {
+      text-decoration: underline;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
+}
+
+
+#cab {
+     background-color: rgba(138, 43, 226, 0.8); /* Com transparência (alpha) */
+ }
+
+ #corpo {
+     background-color: rgba(138, 43, 226, 0.2); /* Com transparência (alpha) */
+ }
+
+ #lulina2{
+    background-image: url('http://festaslulinas2/img/lulinas2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    height: 100vh
+ }
+
+  #rodape {
+     background-color: rgba(138, 43, 226, 0.8); /* Com transparência (alpha) */
+ }
+
+ .parallax-container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* 100% da altura da viewport */
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .parallax-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200vh; /* Altura maior que a do container para efeito parallax */
+            background-image: url(img/festas.jpg); /* Substitua pelo caminho da sua imagem */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+  .bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
