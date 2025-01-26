@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da viewport */
+    background-color: rgba(0, 66, 229, 0.2); 
 }
 
 main {
@@ -15,6 +16,72 @@ main {
       --verde-festa: #00B020;
       --azul-festa: #0042E5;
       --vermelho-festa: #E10F17;
+  }
+
+  .row-bgamarelo{
+    background-color: #FFB127;
+  }
+  .row-bgverde{
+    background-color: #00B020; 
+  }
+  .row-bgazul{
+    background-color: #0042E5; 
+  }
+  .row-bgvermelho{
+    background-color: #E10F17; 
+  }
+
+
+.row-bgamareloalpha {
+    background-color: rgba(255, 177, 39, 0.8); /* #FFB127 com 80% de opacidade */
+}
+
+.row-bgverdealpha {
+    background-color: rgba(0, 176, 32, 0.8);   /* #00B020 com 80% de opacidade */
+}
+
+.row-bgazulalpha {
+    background-color: rgba(0, 66, 229, 0.8);    /* #0042E5 com 80% de opacidade */
+}
+
+.row-bgazulalpha30 {
+    background-color: rgba(0, 66, 229, 0.2);    /* #0042E5 com 80% de opacidade */
+}
+
+.row-bgvermelhoalpha {
+    background-color: rgba(225, 15, 23, 0.8);  /* #E10F17 com 80% de opacidade */
+}
+
+
+
+
+.card-transparente {
+    background-color: transparent; /* Remove o fundo branco padrão */
+    border: none; /* Remove a borda, se desejar */
+}
+
+.card-transparente .card-body {
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo branco com 50% de transparência */
+}
+
+
+
+
+
+  .row-txtamarelo{
+    color: #FFB127;
+  }
+  .row-txtverde{
+    color: #00B020; 
+  }
+  .row-txtazul{
+    color: #0042E5; 
+  }
+  .row-txtvermelho{
+    color: #E10F17; 
+  }
+  .row-txtbranco{
+    color: #FFFFFF; 
   }
 
   .header-festa {
@@ -61,12 +128,12 @@ main {
  }
 
  #lulina2{
-    background-image: url('http://festaslulinas2/img/lulinas2.jpg');
+    background-image: url('http://festaslulinas.com.br/img/lulinas2.jpg');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
     background-size: cover;
-    height: 100vh
+    height: 432px;
  }
 
   #rodape {
