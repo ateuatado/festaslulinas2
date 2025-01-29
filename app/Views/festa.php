@@ -2,9 +2,9 @@
 
 
 
-<h1>Cadastre sua Festa</h1>
+<div class="display-3 animada">Cadastre sua Festa</div>
 
-<p class="lead">
+<p class="lead mt-5">
     Quer fazer parte do movimento das Festas Lulinas e celebrar a cultura popular brasileira, homenageando o legado do ex-presidente Lula? Cadastre aqui a sua festa e junte-se a nós!
 </p>
 

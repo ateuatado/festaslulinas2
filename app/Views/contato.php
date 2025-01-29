@@ -1,7 +1,7 @@
 <?=view('template/header'); ?>
 
 
-<h1>Contato</h1>
+<p class="display-3 animada mt-2">Contato</p>
 
 <p class="lead">
     Tem dúvidas, sugestões ou quer saber mais sobre as Festas Lulinas? Entre em contato conosco!

@@ -2,9 +2,9 @@
 
 
 
-<h1>Quem Somos</h1>
+<div class="display-3 animada">Quem Somos</div>
 
-<p class="lead">
+<p class="lead mt-5">
     O site Festas Lulinas é uma plataforma dedicada a celebrar e promover as Festas Lulinas, um movimento popular, cultural e político que celebra a cultura brasileira, especialmente as tradições juninas e julinas, e homenageia o legado do ex-presidente Luiz Inácio Lula da Silva.
 </p>
 
@@ -53,45 +53,7 @@
 <a href="<?= base_url('cadastre-sua-festa'); ?>" class="btn btn-primary btn-lg">Cadastre sua Festa</a>
 <a href="<?= base_url('apoie'); ?>" class="btn btn-secondary btn-lg">Apoie-se</a>
 
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h2>Nossos Colaboradores</h2>
-            <p class="lead">
-                Conheça as pessoas incríveis que fazem as Festas Lulinas acontecerem!
-            </p>
-            <p>
-                Dedicação, empenho e amor pela cultura popular são apenas algumas das qualidades que definem nossos colaboradores. Cada um deles contribui de forma única para o sucesso das nossas festas, e somos imensamente gratos por seu trabalho e compromisso.
-            </p>
-        </div>
-    </div>
-
-    <div class="row mt-5">
-        <div class="col-md-3 col-sm-6 text-center">
-            <img src="<?php echo base_url('img/placeholder.jpg'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-            <h4 class="mt-3">Colaborador 1</h4>
-            <p>Breve descrição sobre a contribuição do colaborador 1.</p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-            <img src="<?php echo base_url('img/placeholder.jpg'); ?>" alt="Colaborador 2" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-            <h4 class="mt-3">Colaborador 2</h4>
-            <p>Breve descrição sobre a contribuição do colaborador 2.</p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-            <img src="<?php echo base_url('img/placeholder.jpg'); ?>" alt="Colaborador 3" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-            <h4 class="mt-3">Colaborador 3</h4>
-            <p>Breve descrição sobre a contribuição do colaborador 3.</p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-            <img src="<?php echo base_url('img/placeholder.jpg'); ?>" alt="Colaborador 4" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-            <h4 class="mt-3">Colaborador 4</h4>
-            <p>Breve descrição sobre a contribuição do colaborador 4.</p>
-        </div>
-    </div>
-</div>
+<br><br><br><br>
 
 
 

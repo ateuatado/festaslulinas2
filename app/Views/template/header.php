@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festas Lulinas</title>
     <link rel="stylesheet" href="<?php echo base_url('bt/css/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('bt/css/style.css'); ?>"> </head>
+    <link rel="stylesheet" href="<?php echo base_url('bt/css/style.css'); ?>"> 
+    <!-- fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Slackey&display=swap" rel="stylesheet">
+</head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light header-festa">
         <div class="container">
@@ -16,19 +21,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link <?= service('menuAtivo')->linkAtivo('quem-somos'); ?>" href="<?php echo base_url('quem-somos'); ?>">Quem Somos</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('quem-somos'); ?>" href="<?php echo base_url('quem-somos'); ?>">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= service('menuAtivo')->linkAtivo('cadastre-sua-festa'); ?>" href="<?php echo base_url('cadastre-sua-festa'); ?>">Cadastre sua Festa</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('cadastre-sua-festa'); ?>" href="<?php echo base_url('cadastre-sua-festa'); ?>">Cadastre sua Festa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= service('menuAtivo')->linkAtivo('loja'); ?>" href="<?php echo base_url('loja'); ?>">Loja</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('loja'); ?>" href="<?php echo base_url('loja'); ?>">Loja</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= service('menuAtivo')->linkAtivo('contato'); ?>" href="<?php echo base_url('contato'); ?>">Contato</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('contato'); ?>" href="<?php echo base_url('contato'); ?>">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= service('menuAtivo')->linkAtivo('apoie'); ?>" href="<?php echo base_url('apoie'); ?>">Apoie-se</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('apoie'); ?>" href="<?php echo base_url('apoie'); ?>">Apoia-se</a>
                     </li>
                 </ul>
             </div>

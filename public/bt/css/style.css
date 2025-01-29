@@ -3,10 +3,20 @@ body {
     flex-direction: column;
     min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da viewport */
     background-color: rgba(0, 66, 229, 0.2); 
+    font-family: 'pt-sans-regular', sans-serif;
 }
 
 main {
     flex-grow: 1; /* Faz o main ocupar o espaço disponível entre o header e o footer */
+}
+
+h1,h2,h3{
+    font-family: 'PT Sans', sans-serif; /* Define a fonte PT Sans */
+    font-weight: 700; /* Define o peso da fonte como bold (700 é equivalente a bold) */
+}
+
+p, li{
+  font-family: 'pt-sans-regular', sans-serif;
 }
 
 /* Adicione outros estilos customizados aqui */
@@ -164,3 +174,55 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-600 {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.slackey-regular {
+  font-family: "Slackey", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.animada{
+  font-family: "Slackey", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+

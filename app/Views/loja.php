@@ -1,9 +1,9 @@
 <?=view('template/header'); ?>
 
 
-<h1>Loja</h1>
+<div class="display-3 animada">Loja</div>
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning mt-5" role="alert">
   <h4 class="alert-heading">Em Breve!</h4>
   <p>Estamos preparando uma loja virtual incrível para você, com camisetas, canecas e kits para deixar suas Festas Lulinas ainda mais especiais!</p>
   <hr>
