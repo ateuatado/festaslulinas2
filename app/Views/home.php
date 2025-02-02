@@ -1,5 +1,5 @@
 <?=view('template/header'); ?>
-<div class="container">
+<!-- <div class="container">
     <div class="row my-3">
         <div class="col-md-3">
             <div class="card card-transparente shadow mb-3 rounded">
@@ -22,7 +22,7 @@
                 <div class="card-body p-3 ">
                     <div class="row">
                         <div class="col-4 text-center text-right ">
-                           <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12.72 2.03C6.63 1.6 1.6 6.63 2.03 12.72 2.39 18.01 7.01 22 12.31 22H16c.55 0 1-.45 1-1s-.45-1-1-1h-3.67c-3.73 0-7.15-2.42-8.08-6.03-1.49-5.8 3.91-11.21 9.71-9.71C17.58 5.18 20 8.6 20 12.33v1.1c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57v-1.25c0-2.51-1.78-4.77-4.26-5.12-3.4-.49-6.27 2.45-5.66 5.87.34 1.91 1.83 3.49 3.72 3.94 1.84.43 3.59-.16 4.74-1.33.89 1.22 2.67 1.86 4.3 1.21 1.34-.53 2.16-1.9 2.16-3.34v-1.09c0-5.31-3.99-9.93-9.28-10.29zM12 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
+                           
                         </div>
                         <div class="col-8 text-left text-lead text-secondary">
                             <a href="<?=base_url('contato') ?>" class="text-decoration-none d-block">
@@ -54,7 +54,7 @@
                 <div class="card-body p-3 ">
                     <div class="row">
                         <div class="col-4 text-center text-right ">
-                           <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><g><rect fill="none" height="24" width="24"/></g><g><path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12.88,17.76v0.36c0,0.48-0.39,0.88-0.88,0.88h0 c-0.48,0-0.88-0.39-0.88-0.88v-0.42c-0.63-0.15-1.93-0.61-2.69-2.1c-0.23-0.44-0.01-0.99,0.45-1.18l0.07-0.03 c0.41-0.17,0.87,0,1.08,0.39c0.32,0.61,0.95,1.37,2.12,1.37c0.93,0,1.98-0.48,1.98-1.61c0-0.96-0.7-1.46-2.28-2.03 c-1.1-0.39-3.35-1.03-3.35-3.31c0-0.1,0.01-2.4,2.62-2.96V5.88C11.12,5.39,11.52,5,12,5h0c0.48,0,0.88,0.39,0.88,0.88v0.37 c1.07,0.19,1.75,0.76,2.16,1.3c0.34,0.44,0.16,1.08-0.36,1.3l0,0C14.32,9,13.9,8.88,13.66,8.57c-0.28-0.38-0.78-0.77-1.6-0.77 c-0.7,0-1.81,0.37-1.81,1.39c0,0.95,0.86,1.31,2.64,1.9c2.4,0.83,3.01,2.05,3.01,3.45C15.9,17.17,13.4,17.67,12.88,17.76z"/></g></svg>
+                           
                         </div>
                         <div class="col-8 text-left text-lead text-secondary">
                             <a href="<?=base_url('apoie') ?>" class="text-decoration-none d-block">
@@ -66,23 +66,74 @@
             </div>
         </div>
     </div>
+</div> -->
+<!-- Barra de links rápidos -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-2 align-middle">
+                    <span class="align-middle d-inline-block"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16 13h-3c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1zm0-10v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-1V3c0-.55-.45-1-1-1s-1 .45-1 1zm2 17H6c-.55 0-1-.45-1-1V9h14v10c0 .55-.45 1-1 1z"/></svg>
+                    </span>
+                </div>
+                <div class="col-10 align-middle">
+                    <span class="text-center align-middle d-inline-block"> 
+                        Cadastre sua festa <br> de 1º de Maio a 15 de Junho
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-2 align-middle d-inline-block">
+                    <span class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><path d="M0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0z" fill="none"/><path d="M20 0H4v2h16V0zM4 24h16v-2H4v2zM20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 2.75c1.24 0 2.25 1.01 2.25 2.25s-1.01 2.25-2.25 2.25S9.75 10.24 9.75 9 10.76 6.75 12 6.75zM17 17H7v-1.5c0-1.67 3.33-2.5 5-2.5s5 .83 5 2.5V17z"/></svg>
+                    </span>
+                </div>
+                <div class="col-10" >
+                    <span class="text-center align-middle">      
+                        11 964322103 <br>
+                        festaslulinas@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-2 align-middle">
+                    <span class="align-middle d-inline-block"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><g><rect fill="none" height="24" width="24"/></g><g><path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12.88,17.76V19h-1.75v-1.29 c-0.74-0.18-2.39-0.77-3.02-2.96l1.65-0.67c0.06,0.22,0.58,2.09,2.4,2.09c0.93,0,1.98-0.48,1.98-1.61c0-0.96-0.7-1.46-2.28-2.03 c-1.1-0.39-3.35-1.03-3.35-3.31c0-0.1,0.01-2.4,2.62-2.96V5h1.75v1.24c1.84,0.32,2.51,1.79,2.66,2.23l-1.58,0.67 c-0.11-0.35-0.59-1.34-1.9-1.34c-0.7,0-1.81,0.37-1.81,1.39c0,0.95,0.86,1.31,2.64,1.9c2.4,0.83,3.01,2.05,3.01,3.45 C15.9,17.17,13.4,17.67,12.88,17.76z"/></g></svg>
+                    </span>
+                </div>
+                <div class="col-10">
+                    <span class="text-center align-middle"> 
+                        Contribua com as Festas Lulinas
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </div>
-<div class="container">
-    <div class="col-md-3">
 
-    </div>
-    <div class="col-md-3">
-
-    </div>
-    <div class="col-md-3">
-
-    </div>
-    <div class="col-md-3">
-
+<!-- Sessão para o novo tema -->
+<div class="container border border-dark rounded mt-3 mb-3">
+    sessão principal
+    <!-- Contéudo centralizado -->
+    <div class="d-flex align-items-center justify-content-center" style="height:550px">
+        <div class="text-center display-1 pt-sans-regular">
+            Espaço para o tema de 2025
+        </div>
     </div>
 </div>
+
 <!-- Carrossel -->
 <div class="container-fluid p-0 my-1">
+    Carrossel
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -118,49 +169,119 @@
     </div>
 </div>
 
-<hr class="mt-5 mb-5">
+<!-- Sessão para o Outros Conteúdos -->
+<div class="container border border-dark rounded mt-3 mb-3">
+    sessão outros Conteúdos
+    <!-- Contéudo centralizado -->
+    <div class="d-flex align-items-center justify-content-center" style="height:550px">
+        <div class="text-center display-1 pt-sans-regular">
+            Outros Contéudos
+        </div>
+    </div>
+</div>
+
+<!-- sessão Colaboradores -->
+
+    
+
+<div class="container align-items-center justify-content-center  border border-dark rounded mt-3 mb-5">
+    sessão colaboradores
+
+
 
     <div class="row row-bgazulalpha30 p-3 rounded">
         <div class="col-md-12 text-center row-bgazulalpha30 rounded p-2">
             <h2>Nossos Colaboradores</h2>
             <p class="lead">
-                Conheça as pessoas incríveis que fazem as Festas Lulinas acontecerem!
+                nononononono no no n hn on o n n no no no  no n n on o n on o noonononoo nn n onon on ononoo no no n onno n o no n n on nnon o nonon on no n on o nojnon o on no n on o no
             </p>
             <p>
-                Dedicação, empenho e amor pela cultura popular são apenas algumas das qualidades que definem nossos colaboradores. Cada um deles contribui de forma única para o sucesso das nossas festas, e somos imensamente gratos por seu trabalho e compromisso.
+                nononononono no no n hn on o n n no no no  no n n on o n on o noonononoo nn n onon on ononoo no no n onno n o no n n on nnon o nonon on no n on o nojnon o on no n on o no
             </p>
         </div>
     </div>
-
-<div class="row row-bgazulalpha30 p-3 mb-5"> 
-
-
-
-    <div class="col-md-3 col-sm-6 text-center">
-        <img src="<?php echo base_url('img/gleisi.jpg'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-        <h4 class="mt-3">Gleisi Hoffman</h4>
-        <p>Pres. do PT nacional. Mulher incrível, combatente pela democracia brasileira.</p>
+    <!-- Linha de fotinhos -->
+    <div class="col">
+        <div class="row-md-12">
+            <h3>Carregadores de Piano</h3>
+        </div>
+    </div>
+    <div class="row row-bgazulalpha30 p-3"> 
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
     </div>
 
-    <div class="col-md-3 col-sm-6 text-center">
-        <img src="<?php echo base_url('img/lula.jpg'); ?>" alt="Colaborador 2" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-        <h4 class="mt-3">Pres. Lula</h4>
-        <p>O maior presidente da histório do Brasil</p>
+    <!-- Linha 2 de fotinhos -->
+    <div class="col">
+        <div class="row-md-12">
+            <h3>Colaboradores Ilustres</h3>
+        </div>
     </div>
+    <div class="row row-bgazulalpha30 p-3"> 
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+        <div class="col-md-2 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/face2.png'); ?>" alt="Colaborador 1" class="rounded-circle img-fluid" style="width: 75px; height: 75px; object-fit: cover;">
+            <h4 class="mt-3">Leoncio Barba</h4>
+            <p>Coordenador do Movimento Vai que dá</p>
+        </div>
+    </div>
+<div class="mb-5"></div>
 
-    <div class="col-md-3 col-sm-6 text-center">
-        <img src="<?php echo base_url('img/KikoSeleguim.jpg'); ?>" alt="Colaborador 3" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-        <h4 class="mt-3">Kiko Celeguin</h4>
-        <p>Pres. PT São Paulo.</p>
-    </div>
 
-    <div class="col-md-3 col-sm-6 text-center">
-        <img src="<?php echo base_url('img/padrejulio.jpg'); ?>" alt="Colaborador 4" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
-        <h4 class="mt-3">Padre Julio Lancellot</h4>
-        <p>Incansável servo de Deus. Ser humano sensível e combatente voraz contra a fome e a miséria.</p>
-    </div>
 </div>
 
-<br><br><br><br>
+
 
 <?=view('template/footer'); ?>
