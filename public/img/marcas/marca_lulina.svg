@@ -1,0 +1,56 @@
+<svg width="600" height="650" viewBox="0 0 600 650" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <style>
+      .bandeirola{
+        fill:#ff0000;
+        stroke: #ff0000;
+      }
+
+      .fundo{
+         fill:#808080;
+         stroke:#808080;
+      }
+      .estrela{
+        fill:#ffff00;
+        stroke:#ffff00;
+
+      }
+        .texto {
+            fill: #ffffff;
+            stroke:#ffffff;
+            font-family: "Arial Black", sans-serif; /* Fonte aproximada */
+            font-size: 90px;
+            font-weight: bold;
+            text-anchor: middle;
+             dominant-baseline: middle;
+        }
+         .texto2 {
+            fill: #ffffff;
+             stroke:#ffffff;
+            font-family: "Arial Black", sans-serif; /* Fonte aproximada */
+            font-size: 100px;
+            font-weight: bold;
+            text-anchor: middle;
+             dominant-baseline: middle;
+
+        }
+
+
+    </style>
+  </defs>
+
+  <rect width="600" height="650" class="fundo"/>
+
+    <path class="bandeirola" d="M 50 50 L 550 50 L 550 500 L 300 600 L 50 500 Z"/>
+  <polygon class="estrela" points="300,460 335,520 405,520 355,560 380,630 300,590 220,630 245,560 195,520 265,520" />
+  <text x="300" y="150" class="texto">FESTAS</text>
+    <text x="300" y="400" class="texto2">LULINAS</text>
+
+    <rect x="150" y="220" width="300" height="25"  class="bandeirola"/>
+
+  <polygon class="estrela" points="165,232.5 175,247.5 190,247.5 177,257.5 185,275 165,260 145,275 152,257.5 140,247.5 155,247.5"/>
+    <polygon class="estrela" points="240,232.5 250,247.5 265,247.5 252,257.5 260,275 240,260 220,275 227,257.5 215,247.5 230,247.5"/>
+     <polygon class="estrela" points="315,232.5 325,247.5 340,247.5 327,257.5 335,275 315,260 295,275 302,257.5 290,247.5 305,247.5"/>
+    <polygon class="estrela" points="390,232.5 400,247.5 415,247.5 402,257.5 410,275 390,260 370,275 377,257.5 365,247.5 380,247.5"/>
+    <polygon class="estrela" points="465,232.5 475,247.5 490,247.5 477,257.5 485,275 465,260 445,275 452,257.5 440,247.5 455,247.5"/>
+</svg>

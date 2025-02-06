@@ -1,59 +1,58 @@
 <?=view('template/header'); ?>
 
+<div class="container">
 
-
-<div class="display-3 animada">Quem Somos</div>
-
-<p class="lead mt-5">
-    O site Festas Lulinas é uma plataforma dedicada a celebrar e promover as Festas Lulinas, um movimento popular, cultural e político que celebra a cultura brasileira, especialmente as tradições juninas e julinas, e homenageia o legado do ex-presidente Luiz Inácio Lula da Silva.
-</p>
-
-<h2>Nossa Missão</h2>
-
-<p>
-    Nossa missão é conectar pessoas, instituições, associações e partidos que desejam organizar e participar das Festas Lulinas em todo o Brasil. Acreditamos na força da cultura popular como ferramenta de união, resistência e transformação social. Queremos fortalecer os laços comunitários, promover a solidariedade e celebrar a alegria de viver, tudo isso sob a inspiração dos valores e conquistas do governo Lula no combate à fome e à miséria.
-</p>
-
-<h2>Nossa História</h2>
-
-<p>
-    As Festas Lulinas surgiram em [ano de surgimento, se houver] como uma forma de celebrar a cultura brasileira e, ao mesmo tempo, reafirmar o compromisso com a justiça social e a inclusão. Desde então, o movimento cresceu e se espalhou por todo o país.
-</p>
-
-<div class="row">
-    <div class="col-md-4">
-        <h3>Festa Lulina 2022</h3>
-        <p>Em 2022, celebramos a volta da esperança com a primeira Festa Lulina, após um período difícil para a democracia brasileira. Foi um momento de reencontro e celebração da cultura popular.</p>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="display-4 animada text-end       ">Quem Somos</div>
+        </div>
+        
     </div>
-    <div class="col-md-4">
-        <h3>Festa Lulina 2023</h3>
-        <p>Em 2023, consolidamos a reconstrução, reunindo ainda mais pessoas em festas por todo o Brasil. A alegria e a união foram as marcas dessa edição.</p>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="<?php echo base_url('img/quemsomos.jpg'); ?>" alt="Lula Geurreiro do Povo Brasileiro" class="img-fluid imagem-quem-somos ">
+        </div>
     </div>
-    <div class="col-md-4">
-        <h3>Festa Lulina 2024</h3>
-        <p>Em 2024, o tema "União e Reconstrução" se fez presente em cada festa, reforçando nosso compromisso com um Brasil mais justo e igualitário para todos.</p>
+    
+
+    <p class="lead d-flex pt-sans-regular">
+        <img src="<?=base_url('img/marcas/marca_lulina.svg')  ?>" width="100px" height="110px" class="m-2" style="float: left;">
+        O coletivo Festas Lulinas nasceu da vontade de fortalecer o legado e as realizações do Presidente Lula como uma ação comunitária. A ideia é fazer uma festa brasileira com as características de cada região, cidade, comunidade, bairro, etc., sejam eles dentro ou fora do Brasil.
+    </p>
+
+    <h2>Sobre as Festas Lulinas</h2>
+    <p>
+        As Festas Lulinas são realizadas no período de 13 de julho a 13 de agosto, e a nossa proposta é entrar no calendário nacional de festas populares.
+    </p>
+
+    <h2>Como Participar</h2>
+
+    <p>
+        Basta organizar uma festa que tenha conversa, comida e democratas, sem esquecer o ingrediente principal: brasileiras e brasileiros! As demais atrações podem ser decididas pelos coletivos e organizações das festas, dando preferência para o gosto popular de cada região.
+    </p>
+
+    <h2>O Que Você Precisa Fazer?</h2>
+
+    <ol>
+        <li>Definir uma data e local entre 13 de julho e 13 de agosto (até 10 de julho de 2024 para participar desta edição).</li>
+        <li>Preencher o formulário de participação no <a href="[LINK DO FORMULÁRIO]">LINK</a>.</li>
+        <li>Aguardar o contato da equipe para receber o seu kit de divulgação com a identidade da festa e começar a divulgação.</li>
+        <li>Começar a organizar a sua festa com tudo aquilo que sua comunidade gosta! O pretexto junino é só uma sugestão.</li>
+    </ol>
+
+    <h2>Siga nossas redes</h2>
+    <ul class="list-unstyled">
+        <li><strong>TAG:</strong> #festasLULINAS</li>
+        <li><strong>Instagram/X:</strong> @festaslulinas</li>
+        <li><strong>E-mail:</strong> <a href="mailto:festaslulinas@gmail.com">festaslulinas@gmail.com</a></li>
+    </ul>
+
+    <div class="mt-5 mb-5">
+
+        .
     </div>
+
 </div>
-
-<h2>Nossos Valores</h2>
-
-<ul>
-    <li><strong>Cultura Popular:</strong> Valorizamos e promovemos as tradições culturais brasileiras, especialmente as festas juninas e julinas.</li>
-    <li><strong>Justiça Social:</strong> Acreditamos em um Brasil sem fome e sem miséria, onde todos tenham acesso a oportunidades e uma vida digna.</li>
-    <li><strong>Solidariedade:</strong> Incentivamos a união e a colaboração entre as pessoas para a construção de uma sociedade mais justa.</li>
-    <li><strong>Alegria e Celebração:</strong> Celebramos a vida e a cultura com alegria, música, dança e comidas típicas.</li>
-    <li><strong>Inclusão e Diversidade:</strong>  As Festas Lulinas são abertas a todos, independentemente de origem, raça, gênero, orientação sexual ou crença.</li>
-</ul>
-
-<h2>Participe!</h2>
-<p>
-    Cadastre sua festa, junte-se a nós e faça parte desse movimento de celebração e transformação!
-</p>
-
-<a href="<?= base_url('cadastre-sua-festa'); ?>" class="btn btn-primary btn-lg">Cadastre sua Festa</a>
-<a href="<?= base_url('apoie'); ?>" class="btn btn-secondary btn-lg">Apoie-se</a>
-
-<br><br><br><br>
 
 
 

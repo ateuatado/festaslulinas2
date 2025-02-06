@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da viewport */
-    background-color: rgba(0, 66, 229, 0.2); 
+/*  background-color: rgba(0, 66, 229, 0.2); */
     font-family: 'pt-sans-regular', sans-serif;
 }
 
@@ -18,6 +18,8 @@ h1,h2,h3{
 p, li{
   font-family: 'pt-sans-regular', sans-serif;
 }
+
+
 
 /* Adicione outros estilos customizados aqui */
 
@@ -221,6 +223,11 @@ p, li{
   font-family: "Slackey", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.imagem-quem-somos {
+    height: auto; /* Importante para manter a proporção */
+
 }
 
 
