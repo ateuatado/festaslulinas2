@@ -1,71 +1,69 @@
 <?=view('template/header'); ?>
 <!-- Barra de links rápidos -->
-<div class="container mt-3">
-    <div class="row">
-        <div class="col-md-3">
 
-        </div>
-        <div class="col-md-3">
-            <div class="row">
-                <div class="col-2 align-middle">
-                    <span class="align-middle d-inline-block"> 
-                        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16 13h-3c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1zm0-10v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-1V3c0-.55-.45-1-1-1s-1 .45-1 1zm2 17H6c-.55 0-1-.45-1-1V9h14v10c0 .55-.45 1-1 1z"/></svg>
-                    </span>
-                </div>
-                <div class="col-10 align-middle">
-                    <span class="text-center align-middle d-inline-block"> 
-                        Cadastre sua festa <br> de 1º de Maio a 15 de Junho
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="row">
-                <div class="col-2 align-middle d-inline-block">
-                    <span class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><path d="M0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0z" fill="none"/><path d="M20 0H4v2h16V0zM4 24h16v-2H4v2zM20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 2.75c1.24 0 2.25 1.01 2.25 2.25s-1.01 2.25-2.25 2.25S9.75 10.24 9.75 9 10.76 6.75 12 6.75zM17 17H7v-1.5c0-1.67 3.33-2.5 5-2.5s5 .83 5 2.5V17z"/></svg>
-                    </span>
-                </div>
-                <div class="col-10" >
-                    <span class="text-center align-middle">      
-                        11 964322103 <br>
-                        festaslulinas@gmail.com
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="row">
-                <div class="col-2 align-middle">
-                    <span class="align-middle d-inline-block"> 
-                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="48px" viewBox="0 0 24 24" width="48px" fill="#5f6368"><g><rect fill="none" height="24" width="24"/></g><g><path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12.88,17.76V19h-1.75v-1.29 c-0.74-0.18-2.39-0.77-3.02-2.96l1.65-0.67c0.06,0.22,0.58,2.09,2.4,2.09c0.93,0,1.98-0.48,1.98-1.61c0-0.96-0.7-1.46-2.28-2.03 c-1.1-0.39-3.35-1.03-3.35-3.31c0-0.1,0.01-2.4,2.62-2.96V5h1.75v1.24c1.84,0.32,2.51,1.79,2.66,2.23l-1.58,0.67 c-0.11-0.35-0.59-1.34-1.9-1.34c-0.7,0-1.81,0.37-1.81,1.39c0,0.95,0.86,1.31,2.64,1.9c2.4,0.83,3.01,2.05,3.01,3.45 C15.9,17.17,13.4,17.67,12.88,17.76z"/></g></svg>
-                    </span>
-                </div>
-                <div class="col-10">
-                    <span class="text-center align-middle"> 
-                        Contribua com as Festas Lulinas
-                    </span>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
 
 <!-- Sessão para o novo tema -->
-<div class="container border border-dark rounded mt-3 mb-3">
-    sessão principal
-    <!-- Contéudo centralizado -->
-    <div class="d-flex align-items-center justify-content-center" style="height:550px">
-        <div class="text-center display-1 pt-sans-regular">
-            Espaço para o tema de 2025
+<div class="container-fluid p-0 pt-5">
+    <img src="<?php echo base_url('img/banner/banner.jpg'); ?>" alt="Descrição da Imagem" class="img-fluid w-100">
+</div>
+
+
+<!-- Sessão para o novo tema -->
+<div class="container pt-5 mb-5">
+    <div class="row"> 
+        <div class="col-md-4 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/apoiadores/gleisi.jpg'); ?>" 
+            alt="Gleisi Hoffman" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+
+            <p class="fs-4 pt-sans-regular-italic">
+                "Este projeto não pode parar, é o registro histórico da nossa luta por um Brasil melhor"
+            </p>
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Gleisi Hoffman
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Presidente Nacional do PT
+            </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/apoiadores/paulobetty.jpg'); ?>" 
+            alt="Paulo Betti" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+
+            <p class="fs-4 pt-sans-regular-italic">
+                "Eu gosto muito dessa ideia das Festas Lulinas, porque reforça o legado do grande líder Luís Inácio Lula da Silva"
+            </p>
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Paulo Betti
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Ator
+            </p>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="<?php echo base_url('img/apoiadores/Kiko.png'); ?>" 
+            alt="Kiko Celeguin" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+
+            <p class="fs-4 pt-sans-regular-italic">
+                "As Festas Lulinas é um excelente instrumento para mobilizar a militância"
+            </p>
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Kiko Celeguin
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Presidente Estadual do PT
+            </p>
         </div>
     </div>
 </div>
+
 
 <!-- Carrossel -->
 <div class="container-fluid p-0 my-1">
-    Carrossel
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -102,20 +100,158 @@
 </div>
 
 <!-- Sessão para o Outros Conteúdos -->
-<div class="container border border-dark rounded mt-3 mb-3">
-    sessão outros Conteúdos
-    <!-- Contéudo centralizado -->
-    <div class="d-flex align-items-center justify-content-center" style="height:550px">
-        <div class="text-center display-1 pt-sans-regular">
-            Outros Contéudos
+<div class="container mt-5 mb-3">
+    <div class="d-flex align-items-center justify-content-center" >
+        <div class="pt-sans-regular">
+            <div class="display-1 text-center slackey-regular" style="line-height: 0.85;">
+                13 de JULHO à 13 de AGOSTO, realizamos as FESTAS LULINAS
+            </div>
+            <div class="fs-4 m-5">
+                O Comitê Popular de Luta FESTAS LULINAS nasceu para registrar e fortalecer o legado e as realizações do Presidente Lula, um festival de festas populares no Brasil e no mundo. Já contou com a adesão de várias regiões do país e também no exterior. Além de Barueri, Osasco, São Paulo e estados como Bahia, Rio de Janeiro, Mato Grosso do Sul e Pernambuco, países como Alemanha, França e Espanha também fazem parte da iniciativa. A proposta do Comitê é fazer uma festa brasileira, que respeite as características de cada região, cidade, comunidade e bairro, sejam eles dentro ou fora do Brasil.
+            </div>
+            <div class="fs-4 m-5">
+                Esta já é a nossa quarta edição e traz o tema:
+            </div>
+            <div class="display-6 text-center slackey-regular m-5" style="line-height:0.99;">
+                Guerreiro contra a fome e a miséria.
+            </div>
+
+            <div class="fs-4 m-5">
+                Nos anos anteriores os temas foram:
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?php echo base_url('img/edicoes/2022.jpg'); ?>" 
+            alt="O Brasil festejando de novo" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300; height: 300; object-fit: cover;">
+                    <div class=" fs-4 text-center">
+                        2022 - O Brasil festejando de novo
+                    </div>
+                    <div class="text-center">
+                        A retomada da esperança!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="<?php echo base_url('img/edicoes/2023.jpg'); ?>" 
+            alt="A consolidação da reconstrução!" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300; height: 300; object-fit: cover;">
+                    <div class=" fs-4 text-center">
+                        2023 - A consolidação da reconstrução!
+                    </div>
+                    <div class="text-center">
+                        Origens 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="<?php echo base_url('img/edicoes/2024.jpg'); ?>" 
+            alt="Orgulho de ser brasileiro" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300; height: 300; object-fit: cover;">
+                    <div class=" fs-4 text-center">
+                        Orgulho de ser brasileiro
+                    </div>
+                    <div class="text-center">
+                        A Retomada da Esperança
+                    </div>
+                </div>
+            </div>  
+            <div class="display-1 text-center slackey-regular mt-5" style="line-height: 0.85;">
+                Vem com a gente, abraçe essa idéia!
+            </div> 
+            <div class="fs-4 m-5">
+                O Comitê Popular de Luta FESTAS LULINAS nasceu para registrar e fortalecer o legado e as realizações do Presidente Lula, um festival de festas populares no Brasil e no mundo.
+                Já contou com a adesão de várias regiões do país e também no exterior. Além de Barueri, Osasco, São Paulo e estados como Bahia, Rio de Janeiro, Mato Grosso do Sul e Pernambuco, países como Alemanha, França e Espanha também fazem parte da iniciativa.
+                A proposta do Comitê é fazer uma festa brasileira, que respeite as características de cada região, cidade, comunidade e bairro, sejam eles dentro ou fora do Brasil.
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 mt-5">
+    <div class="display-3 slackey-regular">
+        Idealizadores
+    </div>
+    <div class="row mt-5 mt-5"> 
+        <div class="col-md-4 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/marcelo.jpg'); ?>" 
+            alt="Marcelo Carvalho" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+
+            <p class="fs-4 pt-sans-regular-italic">
+                "As festas lulinas é uma forma de consolidar o legado do presidente Lula!"
+            </p>
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Marcelo Carvalho
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Idealizador
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/sandra.jpg'); ?>" 
+            alt="Sandra Barbosa" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+
+            <p class="fs-4 pt-sans-regular-italic">
+                "As festas lulinas é uma forma de consolidar o legado do presidente Lula!"
+            </p>
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Sandra Barbosa
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Co-Idealizadora
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center ">
+            
+        </div>
+    </div>
+    <div class="container">
+    <div class="display-3 slackey-regular">
+        Carregadores de Piano
+    </div>
+    <div class="row mt-5 mt-5"> 
+        <div class="col-md-4 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/marcelo.jpg'); ?>" 
+            alt="Marcelo Carvalho" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Marcelo Carvalho
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Idealizador
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/piano/alexandre.jpg'); ?>" 
+            alt="Alexandre Laudio" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Alexandre Cláudio
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Mobilização São Paulo/Capital
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/piano/marcosantol.png'); ?>" 
+            alt="Marco Santo" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 300px; height: 300px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Marco Santo
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Fotógrafo
+            </p>
         </div>
     </div>
 </div>
 
+<br><br><br><br>
+
 <!-- sessão Colaboradores -->
 
     
-
+<!-- 
 <div class="container align-items-center justify-content-center  border border-dark rounded mt-3 mb-5">
     sessão colaboradores
 
@@ -132,7 +268,7 @@
             </p>
         </div>
     </div>
-    <!-- Linha de fotinhos -->
+ Linha de fotinhos
     <div class="col">
         <div class="row-md-12">
             <h3>Carregadores de Piano</h3>
@@ -171,7 +307,7 @@
         </div>
     </div>
 
-    <!-- Linha 2 de fotinhos -->
+Linha 2 de fotinhos 
     <div class="col">
         <div class="row-md-12">
             <h3>Colaboradores Ilustres</h3>
@@ -212,7 +348,7 @@
 <div class="mb-5"></div>
 
 
-</div>
+</div> -->
 
 
 

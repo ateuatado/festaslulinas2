@@ -230,6 +230,12 @@ p, li{
 
 }
 
+.imagem-com-borda {
+    border: 6px solid red; /* Define a borda */
+    /* Outros estilos (opcional) */
+    /* border-radius: 50%;  Se você quiser manter a imagem circular, adicione border-radius */
+}
+
 
 
 

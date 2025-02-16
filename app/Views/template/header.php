@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Slackey&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light header-festa">
+    <nav class="navbar navbar-expand-lg navbar-light header-festa fixed-top p-1">
         <div class="container">
             <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?=base_url('img/logo.png') ?>" width="30px"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
                         <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('quem-somos'); ?>" href="<?php echo base_url('quem-somos'); ?>">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('cadastre-sua-festa'); ?>" href="<?php echo base_url('cadastre-sua-festa'); ?>">Cadastre sua Festa</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('cadastre-sua-festa'); ?>" href="<?php echo base_url('cadastre-sua-festa'); ?>">Participe</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('loja'); ?>" href="<?php echo base_url('loja'); ?>">Loja</a>

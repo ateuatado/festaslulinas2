@@ -8,11 +8,15 @@
         </div>
         
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <img src="<?php echo base_url('img/quemsomos.jpg'); ?>" alt="Lula Geurreiro do Povo Brasileiro" class="img-fluid imagem-quem-somos ">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="<?php echo base_url('img/quemsomos.jpg'); ?>" alt="Lula Geurreiro do Povo Brasileiro" class="img-fluid w-100 imagem-quem-somos ">
+            </div>
         </div>
-    </div>
+    </div> 
+        
     
 
     <p class="lead d-flex pt-sans-regular">
