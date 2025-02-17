@@ -3,7 +3,7 @@
 
 
 <!-- Sessão para o novo tema -->
-<div class="container-fluid p-0 pt-5">
+<div class="container-fluid p-0">
     <img src="<?php echo base_url('img/banner/banner.jpg'); ?>" alt="Descrição da Imagem" class="img-fluid w-100">
 </div>
 
