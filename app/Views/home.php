@@ -10,6 +10,9 @@
 
 <!-- Sessão para o novo tema -->
 <div class="container pt-5 mb-5">
+    <div class="display-3 slackey-regular">
+        Apoiadores
+    </div>
     <div class="row"> 
         <div class="col-md-4 col-sm-6 text-center ">
             <img src="<?php echo base_url('img/apoiadores/gleisi.jpg'); ?>" 
@@ -44,12 +47,12 @@
         </div>
         
         <div class="col-md-4 col-sm-6 text-center">
-            <img src="<?php echo base_url('img/apoiadores/Kiko.png'); ?>" 
+            <img src="<?php echo base_url('img/apoiadores/kiko.jpg'); ?>" 
             alt="Kiko Celeguin" class="rounded-circle img-fluid imagem-com-borda mb-2" 
             style="width: 300px; height: 300px; object-fit: cover;">
 
             <p class="fs-4 pt-sans-regular-italic">
-                "As Festas Lulinas é um excelente instrumento para mobilizar a militância"
+                "As Festas Lulinas são um excelente instrumento para mobilizar a militância"
             </p>
             <p class="h5 slackey-regular" style="margin-top:-4px;">
                 Kiko Celeguin
@@ -69,22 +72,22 @@
             <div class="carousel-item active">
                 <img src="<?php echo base_url('img/lulina1.jpg'); ?>" class="d-block w-100" alt="Festa Lulina 2022">
                 <div class="carousel-caption">
-                    <h3>Festa Lulina 2022</h3>
-                    <p>A retomada da esperança!</p>
+                    <!-- <h3>Festa Lulina 2022</h3>
+                    <p>A retomada da esperança!</p> -->
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="<?php echo base_url('img/lulina2.jpg'); ?>" class="d-block w-100" alt="Festa Lulina 2023">
                 <div class="carousel-caption">
-                    <h3>Festa Lulina 2023</h3>
-                    <p>A consolidação da reconstrução!</p>
+                    <!-- <h3>Festa Lulina 2023</h3>
+                    <p>A consolidação da reconstrução!</p> -->
                 </div>
             </div>
             <div class="carousel-item row-bgazulalpha">
                 <img src="<?php echo base_url('img/lulina3.jpg'); ?>" class="d-block w-100" alt="Festa Lulina 2024">
                 <div class="carousel-caption">
-                    <h3>Festa Lulina 2024</h3>
-                    <p>União e reconstrução em todo lugar!</p>
+                    <!-- <h3>Festa Lulina 2024</h3>
+                    <p>União e reconstrução em todo lugar!</p> -->
                 </div>
             </div>
         </div>
@@ -136,10 +139,10 @@
             alt="A consolidação da reconstrução!" class="rounded-circle img-fluid imagem-com-borda mb-2" 
             style="width: 300; height: 300; object-fit: cover;">
                     <div class=" fs-4 text-center">
-                        2023 - A consolidação da reconstrução!
+                        2023 - Origens 
                     </div>
                     <div class="text-center">
-                        Origens 
+                        Valorização da Nossa História
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -147,10 +150,10 @@
             alt="Orgulho de ser brasileiro" class="rounded-circle img-fluid imagem-com-borda mb-2" 
             style="width: 300; height: 300; object-fit: cover;">
                     <div class=" fs-4 text-center">
-                        Orgulho de ser brasileiro
+                        2024 - Orgulho de ser brasileiro
                     </div>
                     <div class="text-center">
-                        A Retomada da Esperança
+                        União e reconstrução em todo lugar!
                     </div>
                 </div>
             </div>  
@@ -171,14 +174,10 @@
         Idealizadores
     </div>
     <div class="row mt-5 mt-5"> 
-        <div class="col-md-4 col-sm-6 text-center ">
+        <div class="col-md-3 col-sm-6 text-center ">
             <img src="<?php echo base_url('img/idealizadores/marcelo.jpg'); ?>" 
             alt="Marcelo Carvalho" class="rounded-circle img-fluid imagem-com-borda mb-2" 
-            style="width: 300px; height: 300px; object-fit: cover;">
-
-            <p class="fs-4 pt-sans-regular-italic">
-                "As festas lulinas é uma forma de consolidar o legado do presidente Lula!"
-            </p>
+            style="width: 250px; height: 250px; object-fit: cover;">
             <p class="h5 slackey-regular" style="margin-top:-4px;">
                 Marcelo Carvalho
             </p>
@@ -186,14 +185,11 @@
                 Idealizador
             </p>
         </div>
-        <div class="col-md-4 col-sm-6 text-center ">
+        <div class="col-md-3 col-sm-6 text-center ">
             <img src="<?php echo base_url('img/idealizadores/sandra.jpg'); ?>" 
             alt="Sandra Barbosa" class="rounded-circle img-fluid imagem-com-borda mb-2" 
-            style="width: 300px; height: 300px; object-fit: cover;">
+            style="width: 250px; height: 250px; object-fit: cover;">
 
-            <p class="fs-4 pt-sans-regular-italic">
-                "As festas lulinas é uma forma de consolidar o legado do presidente Lula!"
-            </p>
             <p class="h5 slackey-regular" style="margin-top:-4px;">
                 Sandra Barbosa
             </p>
@@ -201,19 +197,41 @@
                 Co-Idealizadora
             </p>
         </div>
-        <div class="col-md-4 col-sm-6 text-center ">
-            
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/kp.jpg'); ?>" 
+            alt="Karl Pinheiro" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 250px; height: 250px; object-fit: cover;">
+
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Karl Pinheiro
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Co-Idealizador
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/lorena.jpg'); ?>" 
+            alt="Lorena" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 250px; height: 250px; object-fit: cover;">
+
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Lorena
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Co-Idealizadora
+            </p>
         </div>
     </div>
-    <div class="container">
+<div class="container">
     <div class="display-3 slackey-regular">
         Carregadores de Piano
     </div>
+    <!-- Primeira Linha Carregadores de piano -->
     <div class="row mt-5 mt-5"> 
-        <div class="col-md-4 col-sm-6 text-center ">
+        <div class="col-md-3 col-sm-6 text-center ">
             <img src="<?php echo base_url('img/idealizadores/marcelo.jpg'); ?>" 
             alt="Marcelo Carvalho" class="rounded-circle img-fluid imagem-com-borda mb-2" 
-            style="width: 300px; height: 300px; object-fit: cover;">
+            style="width: 200px; height: 200px; object-fit: cover;">
             <p class="h5 slackey-regular" style="margin-top:-4px;">
                 Marcelo Carvalho
             </p>
@@ -221,21 +239,32 @@
                 Idealizador
             </p>
         </div>
-        <div class="col-md-4 col-sm-6 text-center ">
+        <div class="col-md-3 col-sm-6 text-center ">
             <img src="<?php echo base_url('img/piano/alexandre.jpg'); ?>" 
             alt="Alexandre Laudio" class="rounded-circle img-fluid imagem-com-borda mb-2" 
-            style="width: 300px; height: 300px; object-fit: cover;">
+            style="width: 200px; height: 200px; object-fit: cover;">
             <p class="h5 slackey-regular" style="margin-top:-4px;">
                 Alexandre Cláudio
             </p>
             <p class="h6" style="margin-top:-4px;">
-                Mobilização São Paulo/Capital
+                Articulação Política
             </p>
         </div>
-        <div class="col-md-4 col-sm-6 text-center ">
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/piano/leonel.jpg'); ?>" 
+            alt="Leonel" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Leonel
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Articulação Política
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
             <img src="<?php echo base_url('img/piano/marcosantol.png'); ?>" 
             alt="Marco Santo" class="rounded-circle img-fluid imagem-com-borda mb-2" 
-            style="width: 300px; height: 300px; object-fit: cover;">
+            style="width: 200px; height: 200px; object-fit: cover;">
             <p class="h5 slackey-regular" style="margin-top:-4px;">
                 Marco Santo
             </p>
@@ -244,7 +273,126 @@
             </p>
         </div>
     </div>
+
+    <!-- Segunda Linha Carregadores de Piano -->
+
+    <div class="row mt-5 mt-5"> 
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/lorena.jpg'); ?>" 
+            alt="Lorena" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Lorena
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Articulação Internacional
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            
+        </div>
+    </div>
 </div>
+
+
+<div class="container">
+    <div class="display-3 slackey-regular">
+        Festeiros
+    </div>
+    <!-- Primeira linha de festeiros -->
+    <div class="row mt-5 mt-5"> 
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/festeiros/lucia.jpg'); ?>" 
+            alt="Lucia" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Lúcia
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Barueri/SP
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/festeiros/gerson.jpg'); ?>" 
+            alt="Gerson" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Gerson
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Baruei/SP
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/festeiros/meire.jpg'); ?>" 
+            alt="Rosemeire" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Rosemeire
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Ponta Porã/MS
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/piano/leonel.jpg'); ?>" 
+            alt="Leonel" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Leonel
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Jandira/SP
+            </p>
+        </div>
+    </div>
+    <!-- Festeiro 2 Linha -->
+    <div class="row mt-5 mt-5"> 
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/piano/alexandre.jpg'); ?>" 
+            alt="Alexandre Laudio" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Alexandre Cláudio
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                São Paulo/SP
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/kp.jpg'); ?>" 
+            alt="Karl Pinheiro" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Karl Pinheiro
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Baruei/SP
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+            <img src="<?php echo base_url('img/idealizadores/sandra.jpg'); ?>" 
+            alt="Sandra Barbosa" class="rounded-circle img-fluid imagem-com-borda mb-2" 
+            style="width: 200px; height: 200px; object-fit: cover;">
+            <p class="h5 slackey-regular" style="margin-top:-4px;">
+                Sandra Barbosa
+            </p>
+            <p class="h6" style="margin-top:-4px;">
+                Baruei/SP
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center ">
+
+        </div>
+    </div>
+</div>
+
 
 <br><br><br><br>
 

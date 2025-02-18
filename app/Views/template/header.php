@@ -21,8 +21,12 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('quem-somos'); ?>" href="<?php echo base_url('quem-somos'); ?>">Quem Somos</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('home'); ?>" href="<?php echo base_url('home'); ?>">Capa</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('apoie'); ?>" href="<?php echo base_url('apoie'); ?>">Apoia-se</a>
+                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('cadastre-sua-festa'); ?>" href="<?php echo base_url('cadastre-sua-festa'); ?>">Participe</a>
                     </li>
@@ -32,8 +36,9 @@
                     <li class="nav-item">
                         <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('contato'); ?>" href="<?php echo base_url('contato'); ?>">Contato</a>
                     </li>
+                    
                     <li class="nav-item">
-                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('apoie'); ?>" href="<?php echo base_url('apoie'); ?>">Apoia-se</a>
+                        <a class="nav-link slackey-regular <?= service('menuAtivo')->linkAtivo('quem-somos'); ?>" href="<?php echo base_url('quem-somos'); ?>">Quem Somos</a>
                     </li>
                 </ul>
             </div>

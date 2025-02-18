@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <div class="display-4 animada text-end       ">Quem Somos</div>
+            <div class="display-4 animada text-end">Quem Somos</div>
         </div>
         
     </div>
@@ -19,8 +19,8 @@
         
     
 
-    <p class="lead d-flex pt-sans-regular">
-        <img src="<?=base_url('img/marcas/marca_lulina.svg')  ?>" width="100px" height="110px" class="m-2" style="float: left;">
+    <p class="lead d-flex pt-sans-regular mt-3">
+        <img src="<?=base_url('img/marcas/marcafestaslulinas2.png')  ?>" width="100px" height="110px" class="m-2" style="float: left;">
         O coletivo Festas Lulinas nasceu da vontade de fortalecer o legado e as realizações do Presidente Lula como uma ação comunitária. A ideia é fazer uma festa brasileira com as características de cada região, cidade, comunidade, bairro, etc., sejam eles dentro ou fora do Brasil.
     </p>
 

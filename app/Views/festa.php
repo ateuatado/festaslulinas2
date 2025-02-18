@@ -52,6 +52,10 @@ Junte-se a nós nessa celebração da cultura popular, da solidariedade e da esp
     <strong >Lembre-se:</strong> As inscrições estarão abertas de 1º de março a 15 de junho de <?php echo date('Y'); ?>. Cadastre sua festa dentro do prazo e participe!
 </p>
 
+<div class="container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKTxQ7ZKT_6iB-7wRcCfocfGjsfO4xq0R0wEtWEj9FnVEeDQ/viewform?embedded=true" width="640" height="1184" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+</div>
+
 <a href="<?= base_url('cadastre-sua-festa/formulario'); ?>" class="btn btn-primary btn-lg disabled">Cadastre sua Festa</a>
 
 
