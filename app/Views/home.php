@@ -1,4 +1,5 @@
-<?=view('template/header'); ?>
+<?= $this->extend(config('Auth')->views['layout']); ?>
+<?= view('template/header'); ?>
 <!-- Barra de links rápidos -->
 
 
