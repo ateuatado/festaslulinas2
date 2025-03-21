@@ -1,4 +1,4 @@
-<?= $this->extend(config('Auth')->views['layout']); ?>
+
 <?= view('template/header'); ?>
 <!-- Barra de links rápidos -->
 
@@ -159,7 +159,7 @@
                 </div>
             </div>  
             <div class="display-1 text-center slackey-regular mt-5" style="line-height: 0.85;">
-                Vem com a gente, abraçe essa idéia!
+                Vem com a gente, abrace essa idéia!
             </div> 
             <div class="fs-4 m-5">
                 O Comitê Popular de Luta FESTAS LULINAS nasceu para registrar e fortalecer o legado e as realizações do Presidente Lula, um festival de festas populares no Brasil e no mundo.
